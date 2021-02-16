@@ -290,5 +290,4 @@ jQuery(document).ready(function($) {
 	  })
 	}
 	swiperSetting();
-
 });
