@@ -14,10 +14,12 @@ body {
   color: #fff; }
 
 a {
+  color: #1E9DBF;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease; }
   a:hover {
+    color: #EE0D7F;
     text-decoration: none; }
 
 .text-black {
@@ -232,7 +234,7 @@ a {
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active > a {
-      color: #20c997; }
+      color: #1E9DBF; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       font-size: 15px;
@@ -308,7 +310,7 @@ a {
           transition: 0s all;
           color: #343a40; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
-          color: #20c997 !important; }
+          color: #1E9DBF !important; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
           padding: 0;
@@ -811,7 +813,7 @@ a {
     font-weight: bold;
     color: #cccccc; }
     .site-block-tab .nav-item > a:hover, .site-block-tab .nav-item > a.active {
-      border-bottom: 2px solid #20c997;
+      border-bottom: 2px solid #1E9DBF;
       color: #000; }
 
 .block-13, .slide-one-item {
@@ -935,7 +937,7 @@ a {
         width: 80px;
         height: 4px;
         margin-top: -4px;
-        background: #20c997;
+        background: #1E9DBF;
         top: 0; }
       .block-12 .text .text-inner .heading {
         font-size: 20px;
@@ -958,7 +960,7 @@ a {
     display: block;
     border-radius: 50%;
     opacity: 1;
-    color: #20c997 !important; }
+    color: #1E9DBF !important; }
     .block-16 figure .play-button:hover {
       opacity: 1; }
     .block-16 figure .play-button > span {
@@ -996,7 +998,7 @@ a {
   color: #999999; }
 
 .block-25 ul li a .meta {
-  color: #20c997; }
+  color: #1E9DBF; }
 
 .block-25 ul li a:hover img {
   opacity: .5; }
@@ -1025,7 +1027,7 @@ a {
     position: absolute;
     width: 30px;
     height: 30px;
-    background: #20c997;
+    background: #1E9DBF;
     border-radius: 50%;
     color: #fff; }
     .player .team-number > span {
@@ -1060,7 +1062,7 @@ a {
     border-radius: 50%;
     border: 1px solid #ccc; }
   .site-block-27 ul li.active a, .site-block-27 ul li.active span {
-    background: #20c997;
+    background: #1E9DBF;
     color: #fff;
     border: 1px solid transparent; }
 
