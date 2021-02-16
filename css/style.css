@@ -417,12 +417,12 @@ a {
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #1E9DBF; }
+        color: #EE0D7F; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li.active > a {
-        color: #20c997; }
+        color: #1E9DBF; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -1121,15 +1121,15 @@ a {
       background: rgba(0, 0, 0, 0.4);
       content: ""; }
   .swiper-container .btn-outline-white {
-    border-color: #fff;
+    border-color: #1E9DBF;
     color: #fff;
     border-width: 2px;
     text-transform: uppercase;
     font-size: 11px;
     letter-spacing: .1em; }
     .swiper-container .btn-outline-white:hover {
-      background: #fff;
-      color: #000; }
+      background: #1E9DBF;
+      color: #fff; }
 
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
@@ -1162,7 +1162,7 @@ a {
 
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #20c997; }
+  background: #EE0D7F; }
 
 #lightgallery .item {
   margin-bottom: 30px; }
