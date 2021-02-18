@@ -293,7 +293,6 @@
  });
 
  $(document).ready(function() {
-     menu();
      footer();
  });
 
@@ -305,63 +304,3 @@
          '</p>' +
          '</div>');
  }
-
- function menu() {
-     $('#header').append('<div class="container-fluid">' +
-         '<div class="row align-items-center">' +
-
-         '<div class="col-6 col-xl-2" data-aos="fade-down">' +
-         '<a href="index.html" class="text-black h2 mb-0"><img src="images/logof.png" alt=""></a>' +
-         '</div>' +
-         '<div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">' +
-         '<nav class="site-navigation position-relative text-right text-lg-center" role="navigation">' +
-
-         '<ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">' +
-         '<li class="has-children">' +
-         '<a href="single.html">Productos</a>' +
-         '<ul class="dropdown">' +
-         '<li><a href="#">Textiles</a></li>' +
-         '<li><a href="#">Ceramica</a></li>' +
-         '<li><a href="#">Vidrio</a></li>' +
-         '<li><a href="#">Metales</a></li>' +
-         '<li><a href="#">Accesorios</a></li>' +
-         '</ul>' +
-         '</li>' +
-         '<li class="has-children">' +
-         '<a href="services.html">Servicios</a>' +
-         '<ul class="dropdown">' +
-         '<li><a href="#">Sublimación</a></li>' +
-         '<li><a href="#">Banners</a></li>' +
-         '<li><a href="#">Carnetización</a></li>' +
-         '<li><a href="#">Troquelado</a></li>' +
-         '</ul>' +
-         '</li>' +
-         '<li><a href="about.html">Nosotros</a></li>' +
-         '<li><a href="contact.html">Contactanos</a></li>' +
-         '</ul>' +
-         '</nav>' +
-         '</div>' +
-
-         '<div class="col-6 col-xl-2 text-right" data-aos="fade-down">' +
-         '<div class="d-none d-xl-inline-block">' +
-         '<ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">' +
-         '<li>' +
-         '<a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>' +
-         '</li>' +
-         '<li>' +
-         '<a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>' +
-         '</li>' +
-         '<li>' +
-         '<a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>' +
-         '</li>' +
-         '<li>' +
-         '<a href="#" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>' +
-         '</li>' +
-         '</ul>' +
-         '</div>' +
-
-         '<div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>' +
-         '</div>' +
-         '</div>' +
-         '</div>')
- };
