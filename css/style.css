@@ -1168,3 +1168,7 @@ a {
 
 #lightgallery .item {
   margin-bottom: 30px; }
+
+  .form-control.reqError {
+    border: 1px solid #e62b4a !important;
+}
