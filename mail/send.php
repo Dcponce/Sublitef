@@ -5,7 +5,7 @@ if ( !empty( $_POST[ 'f_name' ] ) && !empty( $_POST[ 'l_name' ] ) && !empty( $_P
     $msg .= "Contacto: ".$_POST[ 'phone' ]."\r\n";
     $msg .= "Correo: ".$_POST[ 'email' ]."\r\n";
     $msg .= $_POST[ 'message' ];
-    $email = "dcponce22@gmail.com";
+    $email = "sublimacionesytecnologiasfenix@gmail.com";
     $header = "From: consultas@sublitef.com" . "\r\n";
     $header .= "Reply-To: consultas@sublitef.com" . "\r\n";
     $header .= "X-Mailer: PHP/" . phpversion();
