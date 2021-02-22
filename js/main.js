@@ -302,5 +302,8 @@
          'Todos los derechos reservados © ' + year + ' | by <a href = "https://aplicacionesinfinitas.com"' +
          'target ="_blank"> Aplicaciones Infinitas </a>' +
          '</p>' +
+         '<a href="https://api.whatsapp.com/send?phone=50375458366" class="appWhatsapp" target="_blank">' +
+        '<img src="images/whatsapp.png" alt="whatsapp">' +
+        '</a>' +
          '</div>');
  }
