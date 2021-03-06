@@ -1,14 +1,28 @@
-$(document).ready(function(){
-	function inicio(){
-		let params = new URLSearchParam(location.search);
-		var id = params.get('id');
+$(document).ready(function () {
+	inicio();
+});
 
-		for (var i = total; i < 10 ; i--) {
-			$('#formulario').append('<div class="row" id="lightgallery">'+
-				'<div class="row" id="lightgallery">'+
-				'<div class="row" id="lightgallery">'+
-                '<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/big-images/nature_big_1.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque hic excepturi fugit, sunt impedit fuga tempora, ad amet aliquid?</p>">'+
-                    '<a href="#"><img src="images/acce/acce'+i+'.jpg" alt="IMage" class="img-fluid"></a>'+
-                '</div>')
-		}
+function inicio(){
+	let params = new URLSearchParams(location.search);
+    let id = params.get('id');
+	let total=0;
+	let url="";
+
+    switch (id) {
+		case "1":
+			total=10;
+			url="images/tex/tex"
+            $("#titulo").html("textiles");
+			break;
+	
+		default:
+			break;
+	}
+
+	for (var i = 0; i < total ; i++) {
+		$('#lightgallery').append('<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="'+url+i+'.jpg" data-sub-html="<h4>textil1</h4>'+
+            '<p>Puedes personalizar tus productos.</p>">'+
+            '<a href="#"><img src="'+url+i+'.jpg" alt="IMage" class="img-fluid"></a>'+
+            '</div>')
+	}
 }
