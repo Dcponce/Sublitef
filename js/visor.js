@@ -16,7 +16,7 @@ function inicio(){
 		break;
 
 		case "2":
-			total=7;
+			total=6;
 			url="images/cera/cera"
             $("#titulo").html("Ceramica");
 		break;
@@ -49,7 +49,7 @@ function inicio(){
 		break;
 	}
 
-	for (var i = 0; i <= total ; i++) {
+	for (var i = 0; i < total ; i++) {
 		$('#lightgallery').append('<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="'+url+i+'.jpg" data-sub-html="<h4>Puedes personalizar tus productos.</h4>'+
             '<p>Imagen con fines ilustrativos</p>">'+
             '<a href="#"><img src="'+url+i+'.jpg" alt="image" class="img-fluid" width="900" height="750"></a>'+
