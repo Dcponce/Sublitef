@@ -15,30 +15,35 @@ function inicio(){
 			total=10;
 			url="images/tex/tex"
             $("#titulo").html("Textiles");
+            $("#title").html("Textiles");
 		break;
 
 		case "2":
 			total=6;
 			url="images/cera/cera"
             $("#titulo").html("Ceramica");
+            $("#title").html("Ceramica");
 		break;
 
 		case "3":
 			total=2;
 			url="images/vid/vid"
             $("#titulo").html("Vidrio");
+            $("#title").html("Vidrio");
 		break;
 
 		case "4":
 			total=11;
 			url="images/meta/meta"
             $("#titulo").html("Metales");
+            $("#title").html("Metales");
 		break;
 
 		case "5":
 			total=8;
 			url="images/acce/acce"
             $("#titulo").html("Accesorios");
+            $("#title").html("Accesorios");
 		break;
 
 		case "6":
@@ -47,6 +52,7 @@ function inicio(){
 			h4="Consultar existencias y precios por WhatsApp";
 			p="";
             $("#titulo").html("Tecnología");
+            $("#title").html("Tecnología");
 		break;
 
 		default:
