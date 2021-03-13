@@ -7,6 +7,8 @@ function inicio(){
     let id = params.get('id');
 	let total=0;
 	let url="";
+	let h4="Puedes personalizar tus productos.";
+	let p="Imagen con fines ilustrativos"
 
     switch (id) {
 		case "1":
@@ -42,6 +44,8 @@ function inicio(){
 		case "6":
 			total=5;
 			url="images/tec/tec"
+			h4="Consultar existencias y precios por WhatsApp";
+			p="";
             $("#titulo").html("Tecnología");
 		break;
 
@@ -50,8 +54,8 @@ function inicio(){
 	}
 
 	for (var i = 0; i < total ; i++) {
-		$('#lightgallery').append('<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="'+url+i+'.jpg" data-sub-html="<h4>Puedes personalizar tus productos.</h4>'+
-            '<p>Imagen con fines ilustrativos</p>">'+
+		$('#lightgallery').append('<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="'+url+i+'.jpg" data-sub-html="<h4>'+h4+'</h4>'+
+            '<p>'+p+'</p>">'+
             '<a href="#"><img src="'+url+i+'.jpg" alt="image" class="img-fluid" width="900" height="750"></a>'+
             '</div>')
 	}
