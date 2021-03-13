@@ -1,5 +1,7 @@
 $(document).ready(function () {
 	inicio();
+	modal2();
+	$(".btn").on("click",function(){$("#mensaje").modal("show")})
 });
 
 function inicio(){
@@ -8,7 +10,7 @@ function inicio(){
 	let total=0;
 	let url="";
 	let h4="Puedes personalizar tus productos.";
-	let p="Imagen con fines ilustrativos"
+	let p="Imagen con fines ilustrativos";
 
     switch (id) {
 		case "1":
@@ -47,15 +49,18 @@ function inicio(){
 		break;
 
 		case "6":
-			total=5;
+			img=6;
 			url="images/tec/tec"
 			h4="Consultar existencias y precios por WhatsApp";
 			p="";
             $("#titulo").html("Tecnología");
             $("#title").html("Tecnología");
-		break;
 
-		default:
+			for (var i = 0; i < img ; i++) {
+				$('#gallery').append('<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item">'+
+					'<botton class="btn"><img src="'+url+i+'.jpg" alt="image" class="img-fluid" width="900" height="750"></botton>'+
+					'</div>')
+			}
 		break;
 	}
 
@@ -65,4 +70,17 @@ function inicio(){
             '<a href="#"><img src="'+url+i+'.jpg" alt="image" class="img-fluid" width="900" height="750"></a>'+
             '</div>')
 	}
+
+	
 }
+
+function modal2(){
+	$("body").append('<div class="modal fade" id="mensaje" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">'+
+	'<div class="modal-dialog modal-lg"><div class="modal-content" style="background-image: url(images/msj.jpg);">'+
+	'<div class="modal-header"><h5 class="modal-title" id="exampleModalLabel"></h5>'+
+	'<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="color:#F4F21E;">&times;</span></button></div>'+
+	'<div class="modal-body"><div class="row">'+
+	'<div class="col-md-6"><b><p>Para proporcionarle más información escribanos a nuestro <span style="color:#1E9DBF">WhatsApp</span></p></b></div>'+
+	'<div class="col-md-6"></div></div></div><div class="modal-footer">'+
+	'<button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button></div></div></div></div>')
+			}

@@ -1192,3 +1192,20 @@ a {
   width: 100%;
   height: auto;
 }
+
+#mensaje .modal-content{
+  background-image: url(../../assets/img/2877876.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+#mensaje .modal-body{
+ color: #1B3B3B;
+}
+
+.modal-content p {
+ margin-top: 0;
+ margin-bottom: 1rem;
+ font-size: 2rem;
+}
