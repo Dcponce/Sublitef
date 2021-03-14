@@ -80,7 +80,7 @@ function modal2(){
 	'<div class="modal-header"><h5 class="modal-title" id="exampleModalLabel"></h5>'+
 	'<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="color:#F4F21E;">&times;</span></button></div>'+
 	'<div class="modal-body"><div class="row">'+
-	'<div class="col-md-6"><b><p>Para proporcionarle más información escribanos a nuestro <span style="color:#1E9DBF">WhatsApp</span></p></b></div>'+
+	'<div class="col-md-6"><b><p>Consultar existencias y precios por WhatsApp <span style="color:#1E9DBF">WhatsApp</span></p></b></div>'+
 	'<div class="col-md-6"></div></div></div><div class="modal-footer">'+
 	'<button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button></div></div></div></div>')
 			}
